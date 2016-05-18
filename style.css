@@ -1,0 +1,82 @@
+body
+{
+	font-family: 'Ubuntu Condensed', sans-serif;
+/*	width:768px;*/
+	
+	/*margin:auto;*/
+}
+a
+{
+	color:#870000;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#72CDF4;
+	font-weight:bold;
+}
+a:visited
+{
+	color:#870000;
+	text-decoration:underline;
+}
+header
+{
+	border:solid 4px #FFF797;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;box-shadow: 5px 5px 5px #aaa;
+	text-align:center;
+	color:#000000;
+	margin:auto;
+}
+#photo
+	{
+		display:block;
+		background:url('photo.jpg') no-repeat center;
+		width:120px;
+		height:125px;
+		float:left;
+		padding-right:50px;
+	}
+#description
+	{
+		clear:both;
+	}
+
+span
+{
+	font-weight:bold;
+	
+}
+#titres
+	{
+		text-decoration:underline;
+		text-align:center;
+	}
+div.div_colour
+{
+	margin-top:40px;
+	
+	color:#000000;
+	border-bottom:solid 1px #EF5091;
+	border-left:solid 1px #EF5091;
+	box-shadow: 5px 5px 5px #aaa;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size:22px;
+	padding-left:15px;
+	clear:both;
+}
+p {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
